@@ -1,0 +1,21 @@
+{
+    "name": "magicsuggest",
+    "version": "2.1.5",
+    "description": "MagicSuggest is a multiple selection auto suggest combo box for jquery 3 and bootstrap 3",
+    "main": "magicsuggest.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/juegoman/magicsuggest.git"
+    },
+    "scripts": {
+        "build": "jsmin -o magicsuggest.min.js magicsuggest.js && uglifycss magicsuggest.css > magicsuggest.min.css"
+    },
+    "dependencies": {
+        "bootstrap": "~3",
+        "jquery": ">= 3"
+    },
+    "devDependencies": {
+        "jsmin": "^1.0.1",
+        "uglifycss": "0.0.29"
+    }
+}
